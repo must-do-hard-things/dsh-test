@@ -1,35 +1,27 @@
 # dsh-test
 
-A public sandbox for trying **DeepSeek dsh-superagent** on real GitHub activity.
+用于在真实 GitHub 活动中试用 **DeepSeek dsh-superagent** 的公开沙箱。
 
-## What this is
+## 这是什么
 
-dsh-superagent is a coding agent that works on one GitHub repository. It listens
-for requests in issues and pull requests, turns authorized requests into work
-items, works on them in its own branch, and replies in the original conversation
-— usually with a pull request.
+dsh-superagent 是一个面向单个 GitHub 仓库的编码智能体。它监听 Issue 和 Pull Request 中的请求，把获得授权的请求转成工作项，在自己的分支上完成工作，并在原对话中回复——通常是一个 Pull Request。
 
-This repository is the test bed for that loop. There is no application code: the
-issues, comments and pull requests are the test cases, and any files here are
-leftovers from experiments.
+本仓库就是这套流程的试验场。这里没有应用代码：Issue、评论和 Pull Request 就是测试用例，仓库中的文件都是实验留下的产物。
 
-## Using the sandbox
+## 使用沙箱
 
-1. Open an issue, or comment on an existing one, and mention the agent, for
-   example `@qbudcu`.
-2. The agent acknowledges the request and works on its own branch.
-3. Review the result in the pull request or in the original thread.
+1. 新建 Issue，或在已有 Issue 下评论，并提及智能体，例如 `@qbudcu`。
+2. 智能体会确认请求，并在自己的分支上工作。
+3. 在 Pull Request 或原对话中查看结果。
 
-Everything here is disposable. Test branches and files may be rewritten or
-removed at any time.
+这里的一切都是可丢弃的。测试分支和文件随时可能被改写或删除。
 
-## Notes
+## 说明
 
-- This is a sandbox, not a supported product; nothing here is production code.
-- Do not post secrets, credentials or private data.
-- The repository is currently just this README — there is no build or test
-  suite.
+- 这是沙箱，不是受支持的产品；这里没有生产代码。
+- 请勿发布密钥、凭证或隐私数据。
+- 目前仓库只有这份 README——没有构建或测试套件。
 
-## License
+## 许可证
 
-No license is provided; this repository is for testing only.
+本仓库未提供许可证，仅用于测试。
