@@ -1,3 +1,27 @@
 # dsh-test
 
-Sandbox repository for trying DeepSeek dsh-superagent.
+用于在真实 GitHub 活动中试用 **DeepSeek dsh-superagent** 的公开沙箱。
+
+## 这是什么
+
+dsh-superagent 是一个面向单个 GitHub 仓库的编码智能体。它监听 Issue 和 Pull Request 中的请求，把获得授权的请求转成工作项，在自己的分支上完成工作，并在原对话中回复——通常是一个 Pull Request。
+
+本仓库就是这套流程的试验场。这里没有应用代码：Issue、评论和 Pull Request 就是测试用例，仓库中的文件都是实验留下的产物。
+
+## 使用沙箱
+
+1. 新建 Issue，或在已有 Issue 下评论，并提及智能体，例如 `@qbudcu`。
+2. 智能体会确认请求，并在自己的分支上工作。
+3. 在 Pull Request 或原对话中查看结果。
+
+这里的一切都是可丢弃的。测试分支和文件随时可能被改写或删除。
+
+## 说明
+
+- 这是沙箱，不是受支持的产品；这里没有生产代码。
+- 请勿发布密钥、凭证或隐私数据。
+- 目前仓库只有这份 README——没有构建或测试套件。
+
+## 许可证
+
+本仓库未提供许可证，仅用于测试。
